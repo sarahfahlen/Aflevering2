@@ -1,0 +1,104 @@
+body {
+    background-color: #f9f4ea;
+    margin:20px;
+    font-family:"Raleway", sans-serif;
+}
+
+h1 {
+    text-align:center;
+    color: #3B2F2F;
+    font-family:"Raleway", sans-serif;
+    
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  border: 2px solid #3B2F2F;
+  border-radius: 8px;
+  padding: 5px;
+}
+
+li {
+  display:inline-block
+}
+
+li a {
+  display: block;
+  color: #3B2F2F;
+  font-size:20px;
+  text-decoration: none;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+li a:hover {
+  background-color: #f8ebd2;
+}
+
+.overskrift {
+        color:#3B2F2F;
+        margin:20px;
+
+    }
+.brødtekst {
+        position:relative;
+        color:#3B2F2F;
+        margin: 20px;
+        font-size: 18px;
+    }
+
+#mig {
+  position:absolute;
+  left:70%;
+  top:20%
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 16.66%;
+  padding: 5px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+table {
+    width: 100%;
+    color: #3B2F2F;
+    }
+
+table tr:nth-child(even){
+  background-color: #ebdcc1;}
+table tr:hover {
+  background-color: #a7947381;}
+    
+table th {
+      padding-top: 12px;
+      padding-bottom: 12px;
+      text-align: middle;
+      background-color: #e5d6bd;;
+      color: #3B2F2F;
+    }
+#trackPopup {
+  display:none; 
+  position:fixed; 
+  top: 50%; left: 85%; 
+  transform: translate(-50%, -50%); 
+  width: 20%;
+  max-height: 500px;
+  overflow-y: auto;
+  color: #3B2F2F;
+  background-color: #e5d6bd;
+  border: 1px solid #3B2F2F; 
+  border-radius: 20px;
+  padding: 20px; z-index: 1000;
+  box-shadow: 0 4px 8px #3b2f2fb9;
+  box-sizing: border-box;
+}

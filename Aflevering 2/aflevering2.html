@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Min hjemmeside</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header> 
+        <h1> Sarah Bech Fahlén</h1>
+    </header>
+    <ul>
+        <li> <a href= "/index.html">Startside</a> </li>
+        <li><a href="mig.html"> Om mig</a></li>
+        <li> <a href="aflevering.html">Aflevering 1</a></li>
+        <li> <a href="aflevering2.html">Aflevering 2</a></li>
+    </ul>
+
+<h3 class="overskrift">Album tabel part 2</h3>
+ <p class="brødtekst"> 
+    Herunder ses min 2. aflevering. Her har jeg igen lavet et musikarkiv, men denne gang ved hjælp af Javascript. <br>
+    Du kan trykke på knapperne, for at få flere detaljer om sanglisten på hvert album!
+ </p>   
+<div id=albumTable> </div>
+
+<div id="trackPopup">
+    <h3>Sange på album</h3>
+    <div id="trackList"></div>
+    <button id="closePopup">Luk</button>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+<script src="script.js"></script>
+</body>
+</html>
